@@ -1,23 +1,27 @@
+import { useTranslation } from "react-i18next";
+
 export function Footer() {
+  const { t } = useTranslation();
+
   return (
     <footer id="ContactForm" className="bg-[#F8F9FA]">
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-        <div className="flex justify-between">
+        <div className="flex md:flex-row flex-col md:justify-between gap-3">
           <div>
-            <h3 className="text-2xl font-semibold">Колл-центр</h3>
+            <h3 className="text-2xl font-semibold">{t("callCenter")}</h3>
             <div className="mt-6 space-y-3 text-sm text-gray-700">
               <p>
-                <span className="font-medium">Генеральный директор:</span>{" "}
+                <span className="font-medium">{t("generalDirector")}:</span>{" "}
                 YULDUZXON NABIJANOVA
               </p>
               <p>
-                <span className="font-medium">Номер телефона:</span>{" "}
+                <span className="font-medium">{t("phoneNumber")}:</span>{" "}
                 <a className="underline" href="tel:+998941560330">
                   +998 (94) 156-03-30
                 </a>
               </p>
               <p>
-                <span className="font-medium">Электронная почта:</span>{" "}
+                <span className="font-medium">{t("email")}:</span>{" "}
                 <a
                   className="underline"
                   href="mailto:yulduzxonnabijanova1991@gmail.com"
@@ -66,7 +70,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="mb-4 text-lg font-semibold">Адрес</h4>
+            <h4 className="mb-4 text-lg font-semibold">{t("address")}</h4>
             <div className="overflow-hidden rounded-xl shadow">
               <iframe
                 title="map"
@@ -80,7 +84,14 @@ export function Footer() {
             </div>
             <a
               href="#Navbar"
-              className="absolute right-10 inline-flex h-10 w-10 items-center justify-center rounded-full border bg-white shadow-sm"
+              onClick={(e) => {
+                e.preventDefault();
+                window.scrollTo({
+                  top: 0,
+                  behavior: "smooth",
+                });
+              }}
+              className="absolute right-10 inline-flex h-10 w-10 items-center justify-center rounded-full border bg-white shadow-sm hover:bg-gray-50 transition-colors cursor-pointer"
             >
               ↑
             </a>

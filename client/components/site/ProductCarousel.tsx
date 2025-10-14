@@ -105,16 +105,19 @@ export function ProductCarousel() {
         </button>
 
         {/* Carousel */}
-        <div ref={emblaRef}>
-          <div className="flex gap-6">
+        <div className="overflow-hidden" ref={emblaRef}>
+          <div className="flex">
             {items.map((item, idx) => (
-              <div key={idx} className="min-w-0 shrink-0 grow-0 basis-[25%]">
-                <div className="rounded-[32px] bg-white overflow-hidden shadow-[0_8px_24px_rgba(0,0,0,0.08)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_30px_rgba(0,0,0,0.12)]">
+              <div
+                key={idx}
+                className="min-w-0 shrink-0 grow-0 basis-full md:basis-1/2 lg:basis-1/3 flex-shrink-0"
+              >
+                <div className="rounded-[32px] bg-white overflow-hidden shadow-[0_8px_24px_rgba(0,0,0,0.08)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_30px_rgba(0,0,0,0.12)] mx-4">
                   <div className="bg-[#F7F4F1] overflow-hidden">
                     <img
                       src={item.img}
                       alt={item.title}
-                      className="w-full h-[340px] object-fit transition-transform duration-300 group-hover:scale-105"
+                      className="w-full h-[340px] object-cover transition-transform duration-300 group-hover:scale-105"
                     />
                   </div>
                   <div className="p-6 text-center">
