@@ -1,35 +1,35 @@
 export function Footer() {
   return (
-    <footer id="ContactForm" className="bg-white">
+    <footer id="ContactForm" className="bg-[#F8F9FA]">
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
+        <div className="flex justify-between">
           <div>
             <h3 className="text-2xl font-semibold">Колл-центр</h3>
             <div className="mt-6 space-y-3 text-sm text-gray-700">
               <p>
                 <span className="font-medium">Генеральный директор:</span>{" "}
-                HUSENOV SHERMAT
+                YULDUZXON NABIJANOVA
               </p>
               <p>
                 <span className="font-medium">Номер телефона:</span>{" "}
-                <a className="underline" href="tel:+998991244558">
-                  +998 (99) 124-45-58
+                <a className="underline" href="tel:+998941560330">
+                  +998 (94) 156-03-30
                 </a>
               </p>
               <p>
                 <span className="font-medium">Электронная почта:</span>{" "}
                 <a
                   className="underline"
-                  href="mailto:yuldashevjoxa007@gmail.com"
+                  href="mailto:yulduzxonnabijanova1991@gmail.com"
                 >
-                  yuldashevjoxa007@gmail.com
+                  yulduzxonnabijanova1991@gmail.com
                 </a>
               </p>
             </div>
 
             <div className="mt-8 grid grid-cols-1 gap-3">
               <a
-                href="https://t.me/yuldashev6106"
+                href="https://t.me/Yulduz_Collectionn"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="rounded-lg border bg-white px-4 py-3 text-sm font-medium text-gray-800 shadow-sm transition hover:shadow-md"
@@ -37,7 +37,7 @@ export function Footer() {
                 TELEGRAM
               </a>
               <a
-                href="https://www.instagram.com/husenov_shermat"
+                href="https://www.instagram.com/yulduz_collection_"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="rounded-lg border bg-white px-4 py-3 text-sm font-medium text-gray-800 shadow-sm transition hover:shadow-md"
@@ -45,7 +45,7 @@ export function Footer() {
                 INSTAGRAM
               </a>
               <a
-                href="https://uzum.uz/uz/shop/husansher"
+                // href="https://uzum.uz/uz/shop/husansher"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="rounded-lg border bg-white px-4 py-3 text-sm font-medium text-gray-800 shadow-sm transition hover:shadow-md"
@@ -55,12 +55,12 @@ export function Footer() {
             </div>
           </div>
 
-          <div className="flex items-start md:items-center">
+          <div className="flex justify-center">
             <div className="w-full">
               <img
-                src="https://husan-sher.vercel.app/assets/logo-BpRIo9P9.png"
+                src="/public/yulduz-logo.jpg"
                 alt="HUSAN SHER logo"
-                className="h-28 w-auto object-contain"
+                className="h-[250px] w-auto object-contain"
               />
             </div>
           </div>
@@ -71,24 +71,20 @@ export function Footer() {
               <iframe
                 title="map"
                 src="https://www.google.com/maps?q=Bukhara%20region&output=embed"
-                width="100%"
+                width="400"
                 height="300"
                 style={{ border: 0 }}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               />
             </div>
+            <a
+              href="#Navbar"
+              className="absolute right-10 inline-flex h-10 w-10 items-center justify-center rounded-full border bg-white shadow-sm"
+            >
+              ↑
+            </a>
           </div>
-        </div>
-
-        <div className="mt-12 flex items-center justify-between border-t pt-6 text-xs text-gray-500">
-          <a
-            href="#Navbar"
-            className="inline-flex h-10 w-10 items-center justify-center rounded-full border bg-white shadow-sm"
-          >
-            ↑
-          </a>
-          <p>© {new Date().getFullYear()} HUSAN SHER</p>
         </div>
       </div>
     </footer>

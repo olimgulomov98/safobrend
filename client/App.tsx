@@ -21,13 +21,11 @@ const App = () => (
       <BrowserRouter>
         <div className="min-h-screen bg-white">
           <Navbar />
-          <div className="pt-16 sm:pt-[8vh]">
-            <Routes>
-              <Route path="/" element={<Index />} />
-              {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-              <Route path="*" element={<NotFound />} />
-            </Routes>
-          </div>
+          <Routes>
+            <Route path="/" element={<Index />} />
+            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+            <Route path="*" element={<NotFound />} />
+          </Routes>
           <Footer />
         </div>
       </BrowserRouter>

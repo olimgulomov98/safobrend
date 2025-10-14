@@ -1,43 +1,63 @@
 import useEmblaCarousel from "embla-carousel-react";
 import { useCallback, useEffect, useState } from "react";
 
-type Item = { title: string; price: string; img: string };
+type Item = {
+  title: string;
+  price: string;
+  img: string;
+};
 
 const items: Item[] = [
   {
-    title: "KARAKUL TELPAK",
-    price: "$80",
-    img: "https://husan-sher.vercel.app/assets/5-BCcC-Cy4.jpg",
-  },
-  {
-    title: "KARAKUL TELPAK",
+    title: "Cho'pon",
     price: "$65",
-    img: "https://husan-sher.vercel.app/assets/6-Dd7AgXd0.jpg",
+    img: "/product1.jpg",
   },
   {
-    title: "KARAKUL TELPAK",
+    title: "Julietta",
     price: "$65",
-    img: "https://husan-sher.vercel.app/assets/7-DyLgjrKw.jpg",
+    img: "/product3.jpg",
   },
+
   {
-    title: "KARAKUL TELPAK",
-    price: "$75",
-    img: "https://husan-sher.vercel.app/assets/1-DpBa-m8R.jpg",
-  },
-  {
-    title: "WOMEN BROWN SHUBA",
-    price: "$425",
-    img: "https://husan-sher.vercel.app/assets/2-BALklqpx.jpg",
-  },
-  {
-    title: "WOMEN SHUBA",
-    price: "$350",
-    img: "https://husan-sher.vercel.app/assets/3-DNataPz9.jpg",
-  },
-  {
-    title: "WOLF TELPAK",
+    title: "Baska",
     price: "$65",
-    img: "https://husan-sher.vercel.app/assets/4-FtmO15sf.jpg",
+    img: "/product5.jpg",
+  },
+  {
+    title: "Baska",
+    price: "$65",
+    img: "/product6.jpg",
+  },
+  {
+    title: "Baska",
+    price: "$65",
+    img: "/product7.jpg",
+  },
+  {
+    title: "Baska",
+    price: "$65",
+    img: "/product8.jpg",
+  },
+  {
+    title: "Julietta",
+    price: "$65",
+    img: "/product4.jpg",
+  },
+  {
+    title: "Baska",
+    price: "$65",
+    img: "/product9.jpg",
+  },
+  {
+    title: "Cho'pon",
+    price: "$65",
+    img: "/product2.jpg",
+  },
+  {
+    title: "Baska",
+    price: "$65",
+    img: "/product10.jpg",
   },
 ];
 
@@ -47,6 +67,7 @@ export function ProductCarousel() {
     align: "start",
     slidesToScroll: 1,
   });
+
   const [canScrollPrev, setCanScrollPrev] = useState(false);
   const [canScrollNext, setCanScrollNext] = useState(false);
 
@@ -63,48 +84,52 @@ export function ProductCarousel() {
   }, [emblaApi, onSelect]);
 
   return (
-    <div className="relative">
-      <div className="overflow-hidden" ref={emblaRef}>
-        <div className="-ml-4 flex touch-pan-y">
-          {items.map((item, idx) => (
-            <div
-              key={idx}
-              className="min-w-0 shrink-0 grow-0 basis-full px-4 sm:basis-1/2 lg:basis-1/3"
-            >
-              <div className="rounded-2xl bg-gradient-to-br from-white to-slate-50 p-4 shadow-sm">
-                <div className="overflow-hidden rounded-xl">
-                  <img
-                    src={item.img}
-                    alt={item.title}
-                    className="h-64 w-full object-cover"
-                  />
-                </div>
-                <div className="mt-4 flex items-center justify-between">
-                  <h3 className="text-base font-semibold text-gray-900">
-                    {item.title}
-                  </h3>
-                  <span className="text-sm text-gray-600">{item.price}</span>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-      <div className="pointer-events-none absolute -top-14 right-0 hidden gap-2 sm:flex">
+    <div className="relative py-20">
+      <div className="container mx-auto px-4 relative">
+        {/* Prev Button */}
         <button
           onClick={() => emblaApi?.scrollPrev()}
-          className="pointer-events-auto rounded-full border bg-white px-3 py-2 text-sm text-gray-700 shadow-sm disabled:opacity-40"
           disabled={!canScrollPrev}
+          className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white border border-gray-300 shadow-md rounded-full w-12 h-12 flex items-center justify-center text-2xl font-bold text-gray-600 hover:bg-gray-50 disabled:opacity-40 transition"
         >
-          Prev
+          ‹
         </button>
+
+        {/* Next Button */}
         <button
           onClick={() => emblaApi?.scrollNext()}
-          className="pointer-events-auto rounded-full border bg-white px-3 py-2 text-sm text-gray-700 shadow-sm disabled:opacity-40"
           disabled={!canScrollNext}
+          className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white border border-gray-300 shadow-md rounded-full w-12 h-12 flex items-center justify-center text-2xl font-bold text-gray-600 hover:bg-gray-50 disabled:opacity-40 transition"
         >
-          Next
+          ›
         </button>
+
+        {/* Carousel */}
+        <div ref={emblaRef}>
+          <div className="flex gap-6">
+            {items.map((item, idx) => (
+              <div key={idx} className="min-w-0 shrink-0 grow-0 basis-[25%]">
+                <div className="rounded-[32px] bg-white overflow-hidden shadow-[0_8px_24px_rgba(0,0,0,0.08)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_30px_rgba(0,0,0,0.12)]">
+                  <div className="bg-[#F7F4F1] overflow-hidden">
+                    <img
+                      src={item.img}
+                      alt={item.title}
+                      className="w-full h-[340px] object-fit transition-transform duration-300 group-hover:scale-105"
+                    />
+                  </div>
+                  <div className="p-6 text-center">
+                    <h3 className="text-lg font-semibold text-gray-900 uppercase tracking-wide">
+                      {item.title}
+                    </h3>
+                    <p className="mt-2 text-gray-800 text-base font-medium">
+                      {item.price}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );
