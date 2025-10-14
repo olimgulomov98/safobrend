@@ -58,7 +58,7 @@ export function Footer() {
           <div className="flex justify-center">
             <div className="w-full">
               <img
-                src="/public/yulduz-logo.jpg"
+                src="/yulduz-logo.jpg"
                 alt="HUSAN SHER logo"
                 className="h-[250px] w-auto object-contain"
               />
