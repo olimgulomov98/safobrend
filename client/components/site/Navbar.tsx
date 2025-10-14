@@ -17,7 +17,10 @@ export function Navbar() {
         className="mx-auto flex h-16 w-full max-w-7xl items-center justify-between px-4 sm:h-[8vh] sm:px-6 lg:px-8"
         style={{ backgroundColor: "hsl(var(--brand-brown))" }}
       >
-        <a href="#Navbar" className="text-white text-lg font-bold tracking-wide">
+        <a
+          href="#Navbar"
+          className="text-white text-lg font-bold tracking-wide"
+        >
           HUSAN SHER
         </a>
 
@@ -49,9 +52,24 @@ export function Navbar() {
           onClick={() => setOpen((v) => !v)}
           aria-label="Toggle menu"
         >
-          <span className={cn("block h-0.5 w-5 bg-white transition-all", open && "translate-y-1 rotate-45")}></span>
-          <span className={cn("mt-1 block h-0.5 w-5 bg-white transition-opacity", open && "opacity-0")}></span>
-          <span className={cn("mt-1 block h-0.5 w-5 bg-white transition-all", open && "-translate-y-1 -rotate-45")}></span>
+          <span
+            className={cn(
+              "block h-0.5 w-5 bg-white transition-all",
+              open && "translate-y-1 rotate-45",
+            )}
+          ></span>
+          <span
+            className={cn(
+              "mt-1 block h-0.5 w-5 bg-white transition-opacity",
+              open && "opacity-0",
+            )}
+          ></span>
+          <span
+            className={cn(
+              "mt-1 block h-0.5 w-5 bg-white transition-all",
+              open && "-translate-y-1 -rotate-45",
+            )}
+          ></span>
         </button>
       </nav>
 
