@@ -75,7 +75,7 @@ export function Footer() {
             <div className="overflow-hidden rounded-xl shadow">
               <iframe
                 title="map"
-                src="https://www.google.com/maps?q=41.004141, 71.612599&output=embed"
+                src="https://www.google.com/maps?q=41.004141,71.612599&output=embed"
                 width="100%"
                 height="300"
                 style={{ border: 0 }}
