@@ -56,7 +56,7 @@ export function Navbar() {
           }}
           className="text-white text-[24px] font-bold tracking-wide cursor-pointer"
         >
-          YULDUZ COLLECTION
+          SAFOBREND
         </a>
 
         <div className="flex items-center gap-10">

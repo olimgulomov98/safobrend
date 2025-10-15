@@ -10,7 +10,7 @@ export default function Index() {
       <section id="HeroSection" className="relative">
         <div className="inset-0 pt-[80px]">
           <img
-            src="/yulduz-bg.png"
+            src="/safobrend-logo.png"
             alt="Hero background"
             className="md:h-[90vh] w-full object-cover"
           />

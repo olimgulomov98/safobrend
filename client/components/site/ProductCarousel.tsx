@@ -2,63 +2,44 @@ import useEmblaCarousel from "embla-carousel-react";
 import { useCallback, useEffect, useState } from "react";
 
 type Item = {
-  title: string;
-  price: string;
   img: string;
 };
 
 const items: Item[] = [
-  {
-    title: "Cho'pon",
-    price: "$65",
-    img: "/product1.jpg",
-  },
-  {
-    title: "Julietta",
-    price: "$65",
-    img: "/product3.jpg",
-  },
-
-  {
-    title: "Baska",
-    price: "$65",
-    img: "/product5.jpg",
-  },
-  {
-    title: "Baska",
-    price: "$65",
-    img: "/product6.jpg",
-  },
-  {
-    title: "Baska",
-    price: "$65",
-    img: "/product7.jpg",
-  },
-  {
-    title: "Baska",
-    price: "$65",
-    img: "/product8.jpg",
-  },
-  {
-    title: "Julietta",
-    price: "$65",
-    img: "/product4.jpg",
-  },
-  {
-    title: "Baska",
-    price: "$65",
-    img: "/product9.jpg",
-  },
-  {
-    title: "Cho'pon",
-    price: "$65",
-    img: "/product2.jpg",
-  },
-  {
-    title: "Baska",
-    price: "$65",
-    img: "/product10.jpg",
-  },
+  { img: "/product1.jpg" },
+  { img: "/product2.jpg" },
+  { img: "/product3.jpg" },
+  { img: "/product4.jpg" },
+  { img: "/product5.jpg" },
+  { img: "/product6.jpg" },
+  { img: "/product7.jpg" },
+  { img: "/product8.jpg" },
+  { img: "/product9.jpg" },
+  { img: "/product10.jpg" },
+  { img: "/product11.jpg" },
+  { img: "/product12.jpg" },
+  { img: "/product13.jpg" },
+  { img: "/product14.jpg" },
+  { img: "/product15.jpg" },
+  { img: "/product16.jpg" },
+  { img: "/product17.jpg" },
+  { img: "/product18.jpg" },
+  { img: "/product19.jpg" },
+  { img: "/product20.jpg" },
+  { img: "/product21.jpg" },
+  { img: "/product22.jpg" },
+  { img: "/product23.jpg" },
+  { img: "/product24.jpg" },
+  { img: "/product25.jpg" },
+  { img: "/product26.jpg" },
+  { img: "/product27.jpg" },
+  { img: "/product28.jpg" },
+  { img: "/product29.jpg" },
+  { img: "/product30.jpg" },
+  { img: "/product31.jpg" },
+  { img: "/product32.jpg" },
+  { img: "/product33.jpg" },
+  { img: "/product34.jpg" },
 ];
 
 export function ProductCarousel() {
@@ -112,22 +93,12 @@ export function ProductCarousel() {
                 key={idx}
                 className="min-w-0 shrink-0 grow-0 basis-full md:basis-1/2 lg:basis-1/3 flex-shrink-0"
               >
-                <div className="rounded-[32px] bg-white overflow-hidden shadow-[0_8px_24px_rgba(0,0,0,0.08)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_30px_rgba(0,0,0,0.12)] mx-4">
-                  <div className="bg-[#F7F4F1] overflow-hidden">
-                    <img
-                      src={item.img}
-                      alt={item.title}
-                      className="w-full h-[340px] object-cover transition-transform duration-300 group-hover:scale-105"
-                    />
-                  </div>
-                  <div className="p-6 text-center">
-                    <h3 className="text-lg font-semibold text-gray-900 uppercase tracking-wide">
-                      {item.title}
-                    </h3>
-                    <p className="mt-2 text-gray-800 text-base font-medium">
-                      {item.price}
-                    </p>
-                  </div>
+                <div className="rounded-[32px] bg-[#d7d8da] overflow-hidden shadow-[0_8px_24px_rgba(0,0,0,0.08)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_30px_rgba(0,0,0,0.12)] mx-4 p-5">
+                  <img
+                    src={item.img}
+                    alt="products"
+                    className="w-full h-[450px] rounded-[24px]"
+                  />
                 </div>
               </div>
             ))}

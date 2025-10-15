@@ -12,28 +12,28 @@ export function Footer() {
             <div className="mt-6 space-y-3 text-sm text-gray-700">
               <p>
                 <span className="font-medium">{t("generalDirector")}:</span>{" "}
-                YULDUZXON NABIJANOVA
+                Хошимов Шохид Юсуфханович
               </p>
               <p>
                 <span className="font-medium">{t("phoneNumber")}:</span>{" "}
                 <a className="underline" href="tel:+998941560330">
-                  +998 (94) 156-03-30
+                  +998 (90) 214-21-54
                 </a>
               </p>
               <p>
-                <span className="font-medium">{t("email")}:</span>{" "}
+                {/* <span className="font-medium">{t("email")}:</span>{" "}
                 <a
                   className="underline"
                   href="mailto:yulduzxonnabijanova1991@gmail.com"
                 >
-                  yulduzxonnabijanova1991@gmail.com
-                </a>
+                  safobrand@gmail.com
+                </a> */}
               </p>
             </div>
 
             <div className="mt-8 grid grid-cols-1 gap-3">
               <a
-                href="https://t.me/Yulduz_Collectionn"
+                // href="https://t.me/Yulduz_Collectionn"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="rounded-lg border bg-white px-4 py-3 text-sm font-medium text-gray-800 shadow-sm transition hover:shadow-md"
@@ -41,7 +41,7 @@ export function Footer() {
                 TELEGRAM
               </a>
               <a
-                href="https://www.instagram.com/yulduz_collection_"
+                // href="https://www.instagram.com/yulduz_collection_"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="rounded-lg border bg-white px-4 py-3 text-sm font-medium text-gray-800 shadow-sm transition hover:shadow-md"
@@ -62,7 +62,7 @@ export function Footer() {
           <div className="flex justify-center">
             <div className="w-full">
               <img
-                src="/yulduz-logo.jpg"
+                src="/safobrend-logo.png"
                 alt="HUSAN SHER logo"
                 className="h-[250px] w-auto object-contain"
               />
@@ -75,7 +75,7 @@ export function Footer() {
             <div className="overflow-hidden rounded-xl shadow">
               <iframe
                 title="map"
-                src="https://www.google.com/maps?q=41.019696,71.558924&output=embed"
+                src="https://www.google.com/maps?q=41.004141, 71.612599&output=embed"
                 width="100%"
                 height="300"
                 style={{ border: 0 }}

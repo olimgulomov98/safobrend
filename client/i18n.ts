@@ -12,14 +12,11 @@ const resources = {
       products: "Продукция",
       contact: "Колл-центр",
 
-      // Hero section
-      heroTitle: "YULDUZ COLLECTION",
-
       // About section
       aboutTitle: "О нас",
       aboutSubtitle: "Слияние моды и наследия",
       aboutDescription:
-        "Yulduz Collection — это не просто бренд одежды, это воплощение индивидуального стиля каждой женщины. Каждое изделие создаётся с любовью, вниманием к деталям и стремлением подчеркнуть женственность и уверенность. Наша цель — подарить женщинам не только современный образ, но и ощущение внутренней гармонии, красоты и уверенности в себе. В каждой коллекции сочетаются утончённые линии, благородные ткани и тщательно подобранные оттенки. Мы вдохновляемся современными модными тенденциями, сохраняя при этом восточную изысканность и национальный шарм. Поэтому одежда от Yulduz Collection идеально подходит как для особых случаев, так и для повседневной жизни. Каждое изделие проходит ручную проверку качества и доставляется в идеальном состоянии. Для нас каждая коллекция — это вдохновение, обновление и выражение стиля.",
+        "SAFOBREND — это не просто бренд мужской одежды, а воплощение стиля и уверенности каждого мужчины. Мы создаём брюки, рубашки, костюмы и другие изделия для мужчин от 7 до 70 лет. Каждая вещь сочетает в себе качество, комфорт и современный дизайн. Одежда от SAFOBREND подчёркивает индивидуальность и подходит как для повседневной жизни, так и для особых случаев. Наша цель — передать через одежду внутреннюю силу и уверенность мужчины. Каждая модель продумана до мелочей, выполнена из прочных тканей и имеет современный стиль. SAFOBREND — это твой стиль, твоя уверенность, твой бренд.",
 
       // Products section
       productsTitle: "Продукция",
@@ -31,10 +28,7 @@ const resources = {
       email: "Электронная почта",
       address: "Адрес",
       addressText:
-        "Наманганская область, Давлатабадский район, Махалля Орзу, улица Ижодкор, дом 172",
-
-      // Mobile navbar
-      mobileTitle: "HUSAN SHER",
+        "Наманганская область, город Наманган, улица Ислама Каримова, 1-й тупик, махалля Орзу, дом 12",
 
       // Language names
       language: "Язык",
@@ -51,14 +45,11 @@ const resources = {
       products: "Products",
       contact: "Contact",
 
-      // Hero section
-      heroTitle: "YULDUZ COLLECTION",
-
       // About section
       aboutTitle: "About Us",
       aboutSubtitle: "Fusion of Fashion and Heritage",
       aboutDescription:
-        "Yulduz Collection is more than just a clothing brand — it’s a celebration of every woman’s unique style. Each piece is crafted with love, attention to detail, and a desire to highlight femininity and confidence. Our mission is to give women not only a stylish appearance but also a sense of inner harmony, beauty, and self-assurance. Every collection combines refined design, premium fabrics, and carefully selected colors. Inspired by modern fashion trends, we preserve an elegant Eastern touch and timeless sophistication. That’s why Yulduz Collection outfits are perfect for both special occasions and everyday wear. Each item is checked by hand to ensure the highest quality and arrives in perfect condition. Every new collection represents inspiration, renewal, and confidence.",
+        "SAFOBREND is more than just a men’s clothing brand — it’s a reflection of every man’s style and confidence. We create trousers, shirts, suits, and more for men aged 7 to 70. Each piece combines quality, comfort, and modern design. SAFOBREND clothing emphasizes individuality and is perfect for both everyday wear and special occasions. Our mission is to express a man’s inner strength and confidence through his look. Every design is thoughtfully crafted, made from durable fabrics, and features a contemporary touch. SAFOBREND — your style, your confidence, your brand.",
 
       // Products section
       productsTitle: "Products",
@@ -70,10 +61,7 @@ const resources = {
       email: "Email",
       address: "Address",
       addressText:
-        "Namangan region, Davlatobod district, Orzu neighborhood, Ijodkor street, house 172",
-
-      // Mobile navbar
-      mobileTitle: "HUSAN SHER",
+        "Namangan region, Namangan city, Islam Karimov street, 1st dead-end, Orzu neighborhood, house 12",
 
       // Language names
       language: "Language",
@@ -90,14 +78,11 @@ const resources = {
       products: "Mahsulotlar",
       contact: "Aloqa",
 
-      // Hero section
-      heroTitle: "YULDUZ COLLECTION",
-
       // About section
       aboutTitle: "Biz haqimizda",
       aboutSubtitle: "Moda va merosning uyg'unligi",
       aboutDescription:
-        "Yulduz Collection — bu shunchaki kiyim brendi emas, bu har bir ayolning o‘ziga xos uslubini ifodalash imkonidir. Bizning har bir libosimiz — nafislik, qulaylik va ishonch uyg‘unligidan tug‘ilgan asar. Brendning asosiy maqsadi — ayollarga nafaqat zamonaviy ko‘rinish, balki o‘ziga ishonch, ayollik va go‘zallik tuyg‘usini ulashishdir. Har bir modelimizda nozik detallar, sifatli matolar va did bilan tanlangan ranglar uyg‘unlashgan. Biz kolleksiyalarni yaratishda zamonaviy moda yo‘nalishlarini kuzatamiz, lekin ularni sharqona nafislik bilan uyg‘unlashtiramiz. Shuning uchun Yulduz Collection kiyimlari — har qanday tadbir, ish muhiti yoki kundalik hayot uchun mos tanlovdir. Har bir buyum qo‘lda tekshiriladi, detallariga e’tibor bilan ishlov beriladi va sizga yetib borguncha mukammal holatda tayyorlanadi. Mijozlarimiz uchun har bir yangi kolleksiya — bu ilhom, yangilik va sifat kafolatidir.",
+        "SAFOBREND — bu shunchaki kiyim brendi emas, bu har bir erkakning uslubi va ishonchining ifodasidir. Biz 7 yoshdan 70 yoshgacha bo‘lgan erkaklar uchun shimlar, ko‘ylaklar, kostyumlar va boshqa kiyim turlarini yaratamiz. Har bir mahsulotimizda sifat, qulaylik va zamonaviylik uyg‘unlashgan. SAFOBREND kiyimlari har qanday holatda — kundalik hayotda ham, maxsus tadbirlarda ham — sizga o‘ziga xoslik va ishonch bag‘ishlaydi. Bizning maqsadimiz — har bir erkakning tashqi ko‘rinishida ichki kuchi va o‘ziga ishonchini aks ettirishdir. Har bir model puxta o‘ylangan dizayn, bardoshli mato va zamonaviy detalga ega. SAFOBREND — bu sizning uslubingiz, sizning ishonchingiz, sizning brendingiz.",
 
       // Products section
       productsTitle: "Mahsulotlar",
@@ -109,10 +94,7 @@ const resources = {
       email: "Elektron pochta",
       address: "Manzil",
       addressText:
-        "Namangan viloyati, Davlatobod tumani, Orzu MFY, Ijodkor ko'chasi, 172-uy",
-
-      // Mobile navbar
-      mobileTitle: "HUSAN SHER",
+        "Namangan viloyati, Namangan shahar, Islom Karimov ko'chasi, 1-tupik, Orzu MFY, 12-uy",
 
       // Language names
       language: "Til",
