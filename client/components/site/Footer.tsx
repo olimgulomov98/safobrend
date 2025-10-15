@@ -76,7 +76,7 @@ export function Footer() {
               <iframe
                 title="map"
                 src="https://www.google.com/maps?q=41.019696,71.558924&output=embed"
-                width="400"
+                width="100%"
                 height="300"
                 style={{ border: 0 }}
                 loading="lazy"
