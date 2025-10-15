@@ -41,12 +41,13 @@ export function Navbar() {
   };
 
   return (
-    <header id="Navbar" className="fixed w-full z-50">
+    <header
+      id="Navbar"
+      className="fixed w-full z-50"
+      style={{ backgroundColor: "hsl(var(--brand-brown))" }}
+    >
       {/* Desktop Navbar */}
-      <nav
-        className="hidden md:flex h-[95px] w-full items-center justify-between px-[100px]"
-        style={{ backgroundColor: "hsl(var(--brand-brown))" }}
-      >
+      <nav className="hidden md:flex h-[95px] w-full items-center justify-between px-[100px] max-w-[1350px] mx-auto">
         <a
           href="#Navbar"
           onClick={(e) => {
@@ -91,10 +92,7 @@ export function Navbar() {
       </nav>
 
       {/* Mobile Navbar */}
-      <nav
-        className="md:hidden h-[95px] w-full flex items-center justify-between px-4"
-        style={{ backgroundColor: "#4A3B2F" }}
-      >
+      <nav className="md:hidden h-[95px] w-full flex items-center justify-between px-4">
         {/* Hamburger Menu */}
         <button
           className="flex flex-col gap-1"

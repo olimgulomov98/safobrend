@@ -70,7 +70,8 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="mb-4 text-lg font-semibold">{t("address")}</h4>
+            <h4 className="mb-1 text-lg font-semibold">{t("address")}</h4>
+            <p className="mb-4 text-[10px]">{t("addressText")}</p>
             <div className="overflow-hidden rounded-xl shadow">
               <iframe
                 title="map"

@@ -30,6 +30,8 @@ const resources = {
       phoneNumber: "Номер телефона",
       email: "Электронная почта",
       address: "Адрес",
+      addressText:
+        "Наманганская область, Давлатабадский район, Махалля Орзу, улица Ижодкор, дом 172",
 
       // Mobile navbar
       mobileTitle: "HUSAN SHER",
@@ -67,6 +69,8 @@ const resources = {
       phoneNumber: "Phone Number",
       email: "Email",
       address: "Address",
+      addressText:
+        "Namangan region, Davlatobod district, Orzu neighborhood, Ijodkor street, house 172",
 
       // Mobile navbar
       mobileTitle: "HUSAN SHER",
@@ -104,6 +108,8 @@ const resources = {
       phoneNumber: "Telefon raqami",
       email: "Elektron pochta",
       address: "Manzil",
+      addressText:
+        "Namangan viloyati, Davlatobod tumani, Orzu MFY, Ijodkor ko'chasi, 172-uy",
 
       // Mobile navbar
       mobileTitle: "HUSAN SHER",
