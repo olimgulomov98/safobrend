@@ -74,7 +74,7 @@ export function Footer() {
             <div className="overflow-hidden rounded-xl shadow">
               <iframe
                 title="map"
-                src="https://www.google.com/maps?q=Bukhara%20region&output=embed"
+                src="https://www.google.com/maps?q=41.01992,71.55897&output=embed"
                 width="400"
                 height="300"
                 style={{ border: 0 }}
