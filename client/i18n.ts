@@ -19,7 +19,7 @@ const resources = {
       aboutTitle: "О нас",
       aboutSubtitle: "Слияние моды и наследия",
       aboutDescription:
-        "YULDUZ COLLECTION — место, где ремесло и мастерство соединяются. Наша мастерская расположена в Бухарской области, Пешкунском районе, махалле Пешку и уже более 30 лет предлагает клиентам качественные шубы и тюбетейки. Для нас каракульская шкура — это не просто сырьё, а бесценный дар, который можно превратить в произведение искусства. Каждое изделие создаётся вручную, с умением и любовью. В результате рождаются вещи, которые не только тёплые и удобные, но и воплощают в себе национальные традиции и утончённость. За долгие годы наше мастерство заслужило доверие и благодарность множества клиентов. Каждый заказ для нас — это новая ответственность, новые возможности и радость видеть довольного клиента.",
+        "Yulduz Collection — это не просто бренд одежды, это воплощение индивидуального стиля каждой женщины. Каждое изделие создаётся с любовью, вниманием к деталям и стремлением подчеркнуть женственность и уверенность. Наша цель — подарить женщинам не только современный образ, но и ощущение внутренней гармонии, красоты и уверенности в себе. В каждой коллекции сочетаются утончённые линии, благородные ткани и тщательно подобранные оттенки. Мы вдохновляемся современными модными тенденциями, сохраняя при этом восточную изысканность и национальный шарм. Поэтому одежда от Yulduz Collection идеально подходит как для особых случаев, так и для повседневной жизни. Каждое изделие проходит ручную проверку качества и доставляется в идеальном состоянии. Для нас каждая коллекция — это вдохновение, обновление и выражение стиля.",
 
       // Products section
       productsTitle: "Продукция",
@@ -56,7 +56,7 @@ const resources = {
       aboutTitle: "About Us",
       aboutSubtitle: "Fusion of Fashion and Heritage",
       aboutDescription:
-        "YULDUZ COLLECTION — where craft and skill come together. Our workshop is located in Bukhara region, Peshku district, Peshku mahalla and for more than 30 years has been offering clients quality fur coats and skullcaps. For us, karakul skin is not just raw material, but a priceless gift that can be turned into a work of art. Each product is created by hand, with skill and love. As a result, things are born that are not only warm and comfortable, but also embody national traditions and sophistication. Over the years, our craftsmanship has earned the trust and gratitude of many clients. Every order for us is a new responsibility, new opportunities and the joy of seeing a satisfied client.",
+        "Yulduz Collection is more than just a clothing brand — it’s a celebration of every woman’s unique style. Each piece is crafted with love, attention to detail, and a desire to highlight femininity and confidence. Our mission is to give women not only a stylish appearance but also a sense of inner harmony, beauty, and self-assurance. Every collection combines refined design, premium fabrics, and carefully selected colors. Inspired by modern fashion trends, we preserve an elegant Eastern touch and timeless sophistication. That’s why Yulduz Collection outfits are perfect for both special occasions and everyday wear. Each item is checked by hand to ensure the highest quality and arrives in perfect condition. Every new collection represents inspiration, renewal, and confidence.",
 
       // Products section
       productsTitle: "Products",
@@ -93,7 +93,7 @@ const resources = {
       aboutTitle: "Biz haqimizda",
       aboutSubtitle: "Moda va merosning uyg'unligi",
       aboutDescription:
-        "YULDUZ COLLECTION — hunarmandchilik va mahorat birlashadigan joy. Bizning ustaxona Buxoro viloyati, Peshku tumani, Peshku mahallasida joylashgan va 30 yildan ortiq vaqt davomida mijozlarga sifatli shuba va telpaklar taklif qilmoqda. Biz uchun qorakul terisi nafaqat xom ashyo, balki san'at asariga aylantirilishi mumkin bo'lgan qimmatbaho sovg'adir. Har bir buyum qo'lda, mahorat va muhabbat bilan yaratiladi. Natijada nafaqat issiq va qulay, balki milliy an'analar va nafosatni o'zida mujassam etgan narsalar tug'iladi. Uzoq yillar davomida bizning hunarmandchiligimiz ko'plab mijozlarning ishonchi va minnatdorchiligiga sazovor bo'ldi. Har bir buyurtma biz uchun yangi mas'uliyat, yangi imkoniyatlar va mamnun mijozni ko'rishdan zavqlanishdir.",
+        "Yulduz Collection — bu shunchaki kiyim brendi emas, bu har bir ayolning o‘ziga xos uslubini ifodalash imkonidir. Bizning har bir libosimiz — nafislik, qulaylik va ishonch uyg‘unligidan tug‘ilgan asar. Brendning asosiy maqsadi — ayollarga nafaqat zamonaviy ko‘rinish, balki o‘ziga ishonch, ayollik va go‘zallik tuyg‘usini ulashishdir. Har bir modelimizda nozik detallar, sifatli matolar va did bilan tanlangan ranglar uyg‘unlashgan. Biz kolleksiyalarni yaratishda zamonaviy moda yo‘nalishlarini kuzatamiz, lekin ularni sharqona nafislik bilan uyg‘unlashtiramiz. Shuning uchun Yulduz Collection kiyimlari — har qanday tadbir, ish muhiti yoki kundalik hayot uchun mos tanlovdir. Har bir buyum qo‘lda tekshiriladi, detallariga e’tibor bilan ishlov beriladi va sizga yetib borguncha mukammal holatda tayyorlanadi. Mijozlarimiz uchun har bir yangi kolleksiya — bu ilhom, yangilik va sifat kafolatidir.",
 
       // Products section
       productsTitle: "Mahsulotlar",
