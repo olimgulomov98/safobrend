@@ -63,7 +63,7 @@ export function Footer() {
             <div className="w-full">
               <img
                 src="/safobrend-logo.png"
-                alt="HUSAN SHER logo"
+                alt="safobrend logo"
                 className="h-[250px] w-auto object-contain"
               />
             </div>

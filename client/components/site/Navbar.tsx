@@ -113,7 +113,7 @@ export function Navbar() {
           }}
           className="text-white text-[20px] font-bold tracking-wide cursor-pointer"
         >
-          YULDUZ COLLECTION
+          SAFOBREND
         </a>
       </nav>
 
